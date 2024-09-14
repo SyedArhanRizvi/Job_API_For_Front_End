@@ -1,0 +1,38 @@
+.jobsSection{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    overflow: auto;
+    /* background: rgb(145, 150, 150); */
+}
+.jobsSection .jobsCard{
+    width: 70%;
+    /* height: 25%; */
+    /* border: 2px solid white; */
+    display: flex;
+    padding: 20px;
+    background: rgb(117, 117, 117);
+    gap: 10px;
+}
+.jobsSection .jobsCard .img{
+    height: 15em;
+    width: 20%;
+    /* background: green; */
+}
+.jobsSection .jobsCard .img img{
+    height: 100%;
+    width: 100%;
+}
+.jobsSection .jobsCard .details {
+    height: 100%;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    background: rgb(63, 69, 69);
+}
